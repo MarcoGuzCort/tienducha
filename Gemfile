@@ -16,6 +16,9 @@ gem 'sqlite3', group: [:development, :test]
 #Postgress preproduction database
 gem 'pg', group: :production
 
+#twtter bootstrap
+gem 'bootstrap-sass'
+
 #12 factor for Heroku
 gem 'rails_12factor', group: :production
 # Use Puma as the app server
