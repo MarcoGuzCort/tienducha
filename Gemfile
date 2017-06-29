@@ -15,12 +15,15 @@ gem 'sqlite3', group: [:development, :test]
 
 #Postgress preproduction database
 gem 'pg', group: :production
+#12 factor for Heroku
+gem 'rails_12factor', group: :production
+#stripe for payment
+gem 'stripe', :git=>'https://github.com/stripe/stripe-ruby'
 
 #twtter bootstrap
 gem 'bootstrap-sass'
 
-#12 factor for Heroku
-gem 'rails_12factor', group: :production
+
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
